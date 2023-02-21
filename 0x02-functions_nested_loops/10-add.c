@@ -9,7 +9,7 @@
  *  Return: Add of number one and number two.
  */
 
-nt add(int a, int b)
+int add(int a, int b)
 {
 	return (a + b);
 }
