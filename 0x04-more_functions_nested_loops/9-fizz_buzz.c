@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -28,11 +29,12 @@ int main(void)
 		}
 		else
 		{
-			if (i == 1)
-				printf(" %d", i);
-			else
-				printf(" %d", i);
+			printf("%d", i);
 		}
+		if (x != 100)
+		{
+			printf(" ");
+	}
 	}
 	printf("\n");
 
