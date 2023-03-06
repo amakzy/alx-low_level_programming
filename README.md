@@ -1,1 +1,1 @@
-this is a c programming tutorial
+sa da nan a read me debug
