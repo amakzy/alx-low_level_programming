@@ -6,7 +6,9 @@
  * @head: head of a list.
  *
  * Return: head node's data.
+ *
  */
+
 int pop_listint(listint_t **head)
 {
 	int hnode;
@@ -14,6 +16,7 @@ int pop_listint(listint_t **head)
 	listint_t *curr;
 
 	if (*head == NULL)
+
 		return (0);
 
 	curr = *head;

@@ -9,9 +9,10 @@
  * @n: integer
  * @next: points to the next node
  *
- * Description: singly linked list node structure
- * for ALX project
+ * Description: singly linked lists  structure
+ * for ALXSE
  */
+
 typedef struct listint_s
 {
 	int n;
@@ -25,6 +26,7 @@ typedef struct listint_s
  *
  * Description: singly linked list of pointers
  */
+
 typedef struct listp_s
 {
 	void *p;
