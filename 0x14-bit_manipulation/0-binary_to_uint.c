@@ -3,14 +3,16 @@
 /**
  * binary_to_uint - converts a binary number to an
  * unsigned int.
- * @b: binary.
+ * @b: Binary.
  *
  * Return: unsigned int.
  */
+
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int ui;
-	int len, base_two;
+	int len;
+	int base_two;
 
 	if (!b)
 		return (0);
