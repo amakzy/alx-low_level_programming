@@ -50,8 +50,11 @@ int main(int argc, char **argv)
 	for (int i = 0; i < EI_NIDENT; i++)
 		printf("%02x ", header.e_ident[i]);
 	printf("\n");
+	void print_elf_class(Elf64_Ehdr header)
+	{
 	printf("  Class:                             ");
-	switch (header.e_ident[EI_CLASS])
+	switch
+		(header.e_ident[EI_CLASS])
 	{
 		case ELFCLASSNONE:
 			printf("none\n");
@@ -157,7 +160,7 @@ int main(int argc, char **argv)
 	printf("  Entry point address:               ");
 	printf("%#lx\n", header.e_entry);
 	close(fd);
-
+	}
 	return (0);
 }
 
