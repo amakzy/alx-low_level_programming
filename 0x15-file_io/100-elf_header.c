@@ -251,7 +251,6 @@ int main(void)
 		printf("Little endian\n");
 	else
 		printf("Big endian\n");
-	return (0);
 }
 
 /**
