@@ -238,6 +238,23 @@ void check_sys(char *ptr)
 }
 
 /**
+ * main - Entry point
+ *
+ * Return: 0 on success
+ */
+int main(void)
+{
+	unsigned int i = 1;
+	char *c = (char *)&i;
+	
+	if (*c)
+		printf("Little endian\n");
+	else
+		printf("Big endian\n");
+	return (0);
+}
+
+/**
  * check_elf - check if it is an elf file.
  * @ptr: magic.
  * Return: 1 if it is an elf file. 0 if not.
