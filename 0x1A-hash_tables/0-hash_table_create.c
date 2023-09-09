@@ -20,6 +20,6 @@ if (ht->array == NULL)
 {
 free(ht);
 return (NULL);
-}  
-return (ht);  
+}
+return (ht);
 }
